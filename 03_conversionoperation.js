@@ -1,3 +1,5 @@
+const { hello } = require("hello")
+
 let score= "33nm"
  console.log(typeof score)
  console.log(typeof(score))
@@ -19,8 +21,36 @@ let score= "33nm"
  //""=> false
  //"abc"(any value)=>true
 
- let somenum= null
+ let somenum= 33
  let stringnum= String(somenum)
- console.log(stringnum)
+ //console.log(stringnum)
+ //console.log(typeof stringnum)
+
+
+ //**********OPERATIONS */
+ let val=3
+ let negval =-val
+ //console.log(negval)
+
+ let str1= "hello"
+ let str2= "nicole"
+ let str3 = str1+str2
+ //console.log(str1+str2)
+
+// console.log("1"+ 2)
+ //console.log(1+ "2")
+// console.log(1+ 2+"1")
+ //console.log("1"+ 2+2)
+
+ console.log(+true)
+ console.log(+"")
+
+ let gamescore= 50
+ ++gamescore
+ console.log(gamescore)
+
+ 
+
+
 
 
